@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Netflix hide spoilers",
+  "description": "This extension automatically hide spoilers on Netflix (those spoilers are automatically shown when pausing a video and are no fun)",
+  "version": "1.0.0",
+  "author": "Vadorequest <https://github.com/Vadorequest>",
+  "browser_action": {
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.netflix.com/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
