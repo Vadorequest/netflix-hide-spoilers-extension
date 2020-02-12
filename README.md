@@ -6,8 +6,9 @@
 
 There are two possibilities:
 
-1. **Use a TamperMonkey script**, that relies on the well known [TamperMonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr)
+1. **Use the TamperMonkey script**, that relies on the well known [TamperMonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=fr)
     _This is the only way to install the script on a non-Chrome browser (TamperMonkey is available on Firefox, etc.)_
+    - Add [this script](./tampermonkey-script/index.js) as a new TamperMonkey script
 1. **Install the dedicated Chrome extension** (in progress)
 
 ## Analytics & Privacy
